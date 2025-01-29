@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NILE</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <style>
+       
+
+        .slider {
+            width: 100vw; /* Full viewport width */
+            overflow: hidden;
+            position: relative;
+        }
+
+        .slider-container {
+            display: flex;
+            width: calc(100% * 6); /* Adjust width for extra images */
+            animation: slide 50s linear infinite; /* Seamless scrolling */
+        }
+
+        .slider-container img {
+            width: 100px; /* Each image takes the full viewport width */
+            height: 100 px; /* Maintain aspect ratio */
+        }
+
+        @keyframes slide {
+            0% {
+                transform: translateX(0);
+            }
+            100% {
+                transform: translateX(-100vw); /* Move one image width at a time */
+            }
+        }
+    </style>
+
+</head>`
+<body>
+   <header>
+    <div class="navbar">
+        <div class="nav-logo border">
+            <div class="logo"><img src="nileimage12.jpg" alt="" height="55px" width="200px"></div>
+        </div>
+        <div class="nav-address border">
+            <p class="add-first">Deliver to</p>
+            <div class="add-icon">
+                <i class="fa-solid fa-location-dot"></i>
+                <p class="add-sec">India</p>
+            </div>
+        </div>
+        <div class="nav-search">
+            <select name="" id="" class="search-select">
+                <option value="">All</option>
+                <option value="Alexa skills">Alexa skills</option>
+                <option value="Appliances">Appliances</option>
+                <option value="Baby">Audible audiobooks</option>
+                <option value="Beauty">Beauty</option>
+                <option value="Books">Books</option>
+                <option value="Car & motorbike">Car & motorbike</option>
+                <option value="Clothing and accessories">Clothing and accessories</option>
+                <option value="Nile devices">Devices</option>
+                <option value="Nile fashion">Fashion</option>
+                <option value="Furniture">Furniture</option>
+                <option value="Gift cards">Gift cards</option>
+                <option value="Home & kitchen">Home & kitchen</option>
+                <option value="Indusrial and scientific">Industrial & scientific</option> 
+            </select>
+           <input type="text" placeholder="Explore the NILE" class="search-input">
+           <div class="search-icon">
+            <i class="fa-solid fa-magnifying-glass"></i>
+           </div>
+        </div>
+        <div class="nav-singin border">
+           
+            <p>
+                <span>Account & Lists</span>
+            </p>
+            <p class="nav-second">
+                <i class="fa-solid fa-user"></i>
+               <a href="login.html" style="color:white;">Login Here</a> 
+            </p>
+        </div>
+        <div class="nav-return border">
+            <p>
+                <span>Your</span>
+            </p>
+            <p class="nav-sec">Orders</p>
+        </div>
+        <div class="nav-cart border" >
+            <i class="fa-solid fa-cart-shopping"></i>
+            Buy Now
+        </div>
+    </div>
+    <div class="panel">
+        <div class="panel-all">
+            <i class="fa-solid fa-bars"></i>All
+        </div>
+        <div class="panel-ops">
+            <p>Savings</p>
+            <p>Grocery & Essentials</p>
+            <p>Valentine's Day</p>
+            <p>Game Time</p>
+            <p>New & Trending</p>
+            <p>Gift Ideas</p>
+            <p>ONE Cash</p>
+        </div>
+        <div class="panel-deals">
+            Shop deals in Electronics
+        </div>
+    </div>
+   </header>
+<hr>
+
+   <div class="hero-section">
+
+    
+    <div class="hero-message">
+       <a href="#" style="background-position:-34px 0;top:50%;left:50%;">
+            <i class="fa-solid fa-angle-left"></i>
+       </a>
+        <p>
+        You are on nile.com. You can also shop on Nile India for millions of products with fast local delivery. <a href="opp.com">Click here to go to nile.in</a> 
+        </p>
+    </div>
+   </div>
+   <div class="shop-section">
+   
+        <div class="box1 box">
+            <div class="box-content">
+            <h2>Health and Personal Care</h2>
+            <div class="box-img" style="background-image: url('box1-img.jpg');" ></div>
+            <p><a href="one_product.html">Shop Now</a></p>
+        </div>
+    </div>
+    <div class="box2 box">
+        <div class="box-content">
+            <h2>Toys under Rs. 25</h2>
+            <div class="box-img" style="background-image: url('box2-img.jpg');" ></div>
+            <p><a href="#">Shop Now</a></p>
+        </div>
+    </div>
+    <div class="box3 box">
+        <div class="box-content">
+            <h2>Best sellers in kitchen and dining</h2>
+            <div class="box-img" style="background-image: url('box3-img.jpg');" ></div>
+            <p><a href="#">Shop Now</a></p>
+        </div>
+    </div>
+    <div class="box4 box">
+        <div class="box-content">
+            <h2>Computers & Accessories</h2>
+            <div class="box-img" style="background-image: url('box4-img.jpg');" ></div>
+            <p><a href="#">Shop Now</a></p>
+        </div>
+    </div>
+    <div class="box5 box">
+        <div class="box-content">
+        <h2>Sheets & Pillowcases</h2>
+        <div class="box-img" style="background-image: url('box5-img.jpg');" ></div>
+        <p><a href="#">Shop Now</a></p>
+    </div>
+</div>
+<div class="box6 box">
+    <div class="box-content">
+    <h2>Get your games on</h2>
+    <div class="box-img" style="background-image: url('box7-img.jpg');" ></div>
+    <p><a href="#">Shop Now</a></p>
+</div>
+</div>
+<div class="box7 box">
+    <div class="box-content">
+    <h2>Comfortable chairs & tables</h2>
+    <div class="box-img" style="background-image: url('gaming_corner.jpg');" ></div>
+    <p><a href="#">Shop Now</a></p>
+</div>
+</div>
+<div class="box8 box">
+    <div class="box-content">
+    <h2>Latest Fashion Trends</h2>
+    <div class="box-img" style="background-image: url('fahsion.webp');" ></div>
+    <p><a href="#">Shop Now</a></p>
+</div>
+</div>
+<div class="box5 box">
+    <div class="box-content">
+    <h2>Sports & Outdoors</h2>
+    <div class="box-img" style="background-image: url('sports.webp');" ></div>
+    <p><a href="#">Shop Now</a></p>
+</div>
+</div>
+<div class="box6 box">
+<div class="box-content">
+<h2>Travelling Bags</h2>
+<div class="box-img" style="background-image: url('luggage.webp');" ></div>
+<p><a href="#">Shop Now</a></p>
+</div>
+</div>
+<div class="box7 box">
+<div class="box-content">
+<h2>Listen Your Fav Music</h2>
+<div class="box-img" style="background-image: url('digital_music.webp');" ></div>
+<p><a href="#">Shop Now</a></p>
+</div>
+</div>
+<div class="box8 box">
+<div class="box-content">
+<h2>Kids Section</h2>
+<div class="box-img" style="background-image: url('kids_section.jpg');" ></div>
+<p><a href="#">Shop Now</a></p>
+</div>
+</div>
+   </div>
+   <hr>
+   <footer class="footer">
+    <div class="footer-container">
+        <div class="footer-column">
+            <h4>ABOUT</h4>
+            <ul>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Corporate Information</a></li>
+                <li><a href="#">Nile Stories</a></li>
+                <li><a href="#">Press</a></li>
+                <li><a href="#">Careers</a></li>
+            </ul>
+        </div>
+        <div class="footer-column">
+            <h4>CUSTOMER POLICY</h4>
+            <ul>
+                <li><a href="#">Cancellation & Returns</a></li>
+                <li><a href="#">Terms Of Use</a></li>
+                <li><a href="#">Security</a></li>
+                <li><a href="#">Privacy</a></li>
+                <li><a href="#">Sitemap</a></li>
+                <li><a href="#">Grievance Redressal</a></li>
+                <li><a href="#">EPR Compliance</a></li>
+                
+            </ul>
+        </div>
+        <div class="footer-column">
+            <h4>Mail Us:</h4>
+            <ul>
+                <li><a href="#">Nile Internet Private Limited,</a></li>
+                <li><a href="#">Building CC3,</a></li>
+                <li><a href="#">IIIT Allahabad,Jhalwa,</a></li>
+                <li><a href="#">Uttar Pradesh,India</a></li>
+            </ul>
+        </div>
+        <div class="footer-column">
+            <h4>Let Us Help You</h4>
+            <ul>
+                <li><a href="#">Nile and COVID-19</a></li>
+                <li><a href="#">Your Account</a></li>
+                <li><a href="#">Your Orders</a></li>
+                <li><a href="#">Payments</a></li>
+                <li><a href="#">Shipping</a></li>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Help</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <div class="footer-locale">
+            <img src="nileimage12.jpg" alt="" height="70" width="70" position="bottom">
+            <i class="fa-brands fa-instagram">instagram</i>
+            <i class="fa-brands fa-facebook">facebook</i>
+            <i class="fa-brands fa-square-twitter">twitter</i>
+
+            <a href="#">English</a> | <a href="#">$ USD - U.S. Dollar</a> | <a href="#">United States</a>
+        </div>
+    </div>
+</footer>
+   
+</body>
+</html>
